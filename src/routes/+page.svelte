@@ -113,6 +113,7 @@
 <svelte:head>
 	<title>Sandwicheese's Terminal Website</title>
 	<meta name="description" content="Sandwicheese's terminal website" />
+	<meta name="google-site-verification" content="fv_CNbFwrtMZ1V0Z2RV4p3t48ULjscLJ97A_P08DT8E" />
 </svelte:head>
 
 <section id="terminal" class="text-white">
@@ -124,7 +125,7 @@
 <section>
 	{@html "<!-- Second part: ctf_1s_s0_fun_  -->"}
 	<form method="POST" action="" class="flex gap-2" on:submit|preventDefault={handleSubmit}>
-		<p class="text-ubuntu-green flex min-w-fit">
+		<p class="flex min-w-fit text-ubuntu-green">
 			sandwicheese@terminal-website
 			<span class="text-white"> : </span>
 			<span class="text-ubuntu-blue">~</span>
@@ -134,7 +135,7 @@
 			id="command-line"
 			type="text"
 			name="command"
-			class="bg-ubuntu-toledo w-full text-white outline-none"
+			class="w-full bg-ubuntu-toledo text-white outline-none"
 			autocomplete="off"
 		/>
 	</form>
